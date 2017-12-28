@@ -1,0 +1,88 @@
+html {
+  font-family: Garamond, serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  color: #ffffff;
+  margin: 0;
+  
+}
+body {
+  margin: 0;
+  background-color: #2e347c;
+  padding: 0;
+  background-size: fill;
+background-repeat: no-repeat;
+    background-size: cover;
+ overflow: hidden; 
+}
+.return {
+  position: relative;
+  background-color: rgba(0,0,0,0.25);
+  margin:0;
+  margin-top:0px;
+width: 100%;
+font-size: 3vh;
+text-align:center;
+}
+.return:hover{
+	cursor: pointer;
+	background-color: rgba(0,0,0,1);
+}
+.section {
+  position: relative;
+  padding: 0;
+  margin: auto;
+  width: 100%;
+}
+
+.container {
+  text-align: center;
+}
+.bingoContainer {
+  width: 100%;
+  margin: auto;
+  position: relative;
+
+}
+.bingoRow {
+  /*the size you want*/
+margin: auto;
+  /*Adjust it how you want*/
+  margin-bottom: auto;
+  /*Adjust it how you want*/
+}
+.bCol {
+max-width: 16vw;
+  max-height: 16vh;
+  margin: auto;
+  padding: 0px;
+}
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+.col-md-12{
+}
+#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+.bottomcredits{
+	position: absolute;
+	  background-color: rgba(0,0,0,0.25);
+  bottom:0px;
+width: 100%;
+font-size: 2vh;
+text-align:center;
+}
+
