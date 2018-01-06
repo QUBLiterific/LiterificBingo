@@ -79,7 +79,7 @@ max-width: 16vw;
 }
 .bottomcredits{
 	position: absolute;
-	  background-color: rgba(0,0,0,0.25);
+	  background-color: rgba(0,0,0,1);
   bottom:0px;
 width: 100%;
 font-size: 2vh;

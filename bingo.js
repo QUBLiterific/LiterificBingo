@@ -54,7 +54,7 @@ function displayBingoSheet(itemArray){
 		for (var j = 0; j < itemArray[i].length; j++){
 			var canvas = document.getElementById("canvas " + i + j);
 			var ctx = canvas.getContext("2d");
-			ctx.font = '18pt Garamond';
+			ctx.font = 'bold 18pt Garamond';
 			ctx.textAlign = "center";
 			ctx.fillStyle="#FFFFFF";
 			wrapText(ctx, itemArray[i][j], canvas.width/2, (canvas.height/2) - 35, canvas.width, 22);
