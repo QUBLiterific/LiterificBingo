@@ -2,6 +2,7 @@
 <title>Literific Bingo</title>
     <meta charset="utf-8">
 	<meta name="theme-color" content="#2e347c">
+	<link rel="icon" href="icon.gif" type="image/gif" sizes="64x64">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
@@ -11,14 +12,11 @@
   <div id="bg">
   <img src="literificbackdrop.jpg">
 </div>
-  <div class = "return"> Go to literific.org 
-  <script> $(document).ready(function() {
-    $(".return").click(function() {
-       window.location.href = "http://literific.org";
-    });
-}); </script>
+<div class = "logo"> </div>
+<a href = "http://literific.org/">
+  <div class = "return"><i> Go to literific.org</i> 
   </div>
-  
+  </a>
     <div class="section">
       <div class="container">
         <div class="row">
@@ -77,4 +75,9 @@
 	 <div class = "bottomcredits">
 
   <span style="font-size:3vh"> <i> Literific Bingo </i></span> <br/>Imagineered by Mr Russell Nairn <br/> Web App by Mr Matthew Sullivan <br/> Design by Mr Matthew Bradley</div>
+  <script>
+$(".logo").delay(000).fadeIn(1000);
+$(".logo").delay(1500).fadeOut(1000);
+$(".section").delay(4000).fadeIn(1000);
+</script>
 </body></html>

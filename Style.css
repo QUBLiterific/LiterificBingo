@@ -28,11 +28,37 @@ text-align:center;
 	cursor: pointer;
 	background-color: rgba(0,0,0,1);
 }
+a:link{
+	color: #ffffff;
+	text-decoration: none;
+}
+a:visited{
+	color: #ffffff;
+	text-decoration: none;
+}
+a:hover{
+	color: #ffffff;
+	text-decoration: none;
+}
 .section {
   position: relative;
   padding: 0;
   margin: auto;
   width: 100%;
+  display: none;
+}
+.logo{
+	vertical-align: middle;
+	text-align: center;
+	  	position: absolute;
+		height: 70%;
+		width: 100%;
+		top: 10%;
+		background-image: url("https://literific.files.wordpress.com/2017/12/v2-mk5g-wings.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center; 
+		display:none;
 }
 
 .container {
