@@ -58,7 +58,6 @@ a:hover{
 		background-size: contain;
 		background-repeat: no-repeat;
 		background-position: center; 
-		display:none;
 }
 
 .container {
@@ -82,6 +81,7 @@ max-width: 16vw;
   max-height: 16vh;
   margin: auto;
   padding: 0px;
+  cursor: pointer;
 }
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 .col-md-12{
