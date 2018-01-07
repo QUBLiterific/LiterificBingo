@@ -17,7 +17,7 @@ background-repeat: no-repeat;
 }
 .return {
   position: relative;
-  background-color: #2e347c;
+  background-color: #000000;
   margin:0;
   margin-top:0px;
 width: 100%;
@@ -26,7 +26,7 @@ text-align:center;
 }
 .return:hover{
 	cursor: pointer;
-	background-color: #000000;
+	background-color: rgba(0,0,0,0.25);
 }
 a:link{
 	color: #ffffff;
