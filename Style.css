@@ -17,7 +17,7 @@ background-repeat: no-repeat;
 }
 .return {
   position: relative;
-  background-color: rgba(0,0,0,0.25);
+  background-color: #2e347c;
   margin:0;
   margin-top:0px;
 width: 100%;
@@ -26,7 +26,7 @@ text-align:center;
 }
 .return:hover{
 	cursor: pointer;
-	background-color: rgba(0,0,0,1);
+	background-color: #000000;
 }
 a:link{
 	color: #ffffff;
@@ -85,6 +85,7 @@ max-width: 16vw;
 }
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 .col-md-12{
+	
 }
 #bg {
   position: fixed; 
