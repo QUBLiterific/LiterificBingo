@@ -22,7 +22,9 @@ var POSSIBLE_ITEMS = ["Proposition Wins",
 "Somebody Leaves Early",
 "A Drink is Spilled",
 "Mjönir, Hammer of the Thunder God and Slayer of the World Serpent Jörmungandr, is stolen",
-"Frivolous PMB Emailed In"]
+"Frivolous PMB Emailed In",
+"A Speech Lasts Less Than 6 Minutes",
+"Matthew Bradley's Presidency is Mentioned"]
 
 console.log(POSSIBLE_ITEMS);
 
