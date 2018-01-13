@@ -77,8 +77,7 @@ function generateBingoSheet(){
 		var row = [];
 		for (var j = 0; j < 5; j++){
 			var index = rng.next() % allItems.length;
-			row[j] = allItems[index];
-			allItems[index] = allItems.pop();
+			row[j] = allItems.splice(index, 1)[0];
 		}
 		finalItemArray[i] = row;
 	}
