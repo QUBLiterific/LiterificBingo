@@ -22,7 +22,9 @@ var POSSIBLE_ITEMS = ["Proposition Wins",
 "Somebody Leaves Early",
 "A Drink is Spilled",
 "Mjönir, Hammer of the Thunder God and Slayer of the World Serpent Jörmungandr, is stolen",
-"Frivolous PMB Emailed In"]
+"Frivolous PMB Emailed In",
+"A Speech Lasts Less Than 6 Minutes",
+"Matthew Bradley's Presidency is Mentioned"]
 
 console.log(POSSIBLE_ITEMS);
 
@@ -75,8 +77,7 @@ function generateBingoSheet(){
 		var row = [];
 		for (var j = 0; j < 5; j++){
 			var index = rng.next() % allItems.length;
-			row[j] = allItems[index];
-			allItems[index] = allItems.pop();
+			row[j] = allItems.splice(index, 1)[0];
 		}
 		finalItemArray[i] = row;
 	}
