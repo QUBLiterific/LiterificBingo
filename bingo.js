@@ -35,7 +35,8 @@ var POSSIBLE_ITEMS = [
 	"Daniel Mispronounces Word",
 	"Jack Mentions the Empire",
 	"Bakaer Laughs at His Own Joke",
-	"Luke Mentions Liverpool FC"
+	"Luke Mentions Liverpool FC",
+	"The President's Breakfast Question Isn't Asked"
 ]
 
 console.log(POSSIBLE_ITEMS);
