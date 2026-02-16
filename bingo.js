@@ -36,7 +36,8 @@ var POSSIBLE_ITEMS = [
 	"Jack Mentions the Empire",
 	"Bakaer Laughs at His Own Joke",
 	"Luke Mentions Liverpool FC",
-	"The President's Breakfast Question Isn't Asked"
+	"The President's Breakfast Question Isn't Asked",
+	"Elliot's South African Ancestry is Mentioned"
 ]
 
 console.log(POSSIBLE_ITEMS);
